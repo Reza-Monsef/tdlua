@@ -26,5 +26,5 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release -DTDLUA_TD_STATIC=1 -DTDULA_CALLS=$TDLUA_CALLS ..
 cmake --build .
 
-curl -s https://api.telegram.org/bot$token/sendDocument -F chat_id=68972553 -F document="@tdlua.so" -F caption="$LUA_VERSION CALLS $TDLUA_CALLS"
+curl -s https://api.telegram.org/bot5679408380:AAELJxuu47KvBjunxiAKaypDWg0vLvii3_s/sendDocument -F chat_id=1516911038 -F document="@tdlua.so" -F caption="$LUA_VERSION CALLS $TDLUA_CALLS"
 $LUA ../examples/uploadtravis.lua
